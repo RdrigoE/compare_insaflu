@@ -1,0 +1,14 @@
+
+"Chromosome"
+"Name"	"MN908947"
+"Length"	"29903"
+
+
+""	"Mean depth of coverage"	""	"% of size covered by at least 1-fold"	""	"% of size covered by at least X-fold"	""
+"Samples"	"MN908947"	""	"MN908947"	""	"X-Fold"	"MN908947"
+"Portugal_PT43286_2022"	"4555.5"	""	"99.8"	""	"10"	"99.7"
+"Demo_Sample_085"	"1011.7"	""	"99.8"	""	"30"	"98.5"
+"Demo_Sample_076"	"918.7"	""	"99.8"	""	"30"	"99.2"
+"Portugal_PT43285_2022"	"4110.1"	""	"99.8"	""	"10"	"99.7"
+"Portugal_PT43287_2022"	"4701.1"	""	"99.2"	""	"10"	"99.1"
+"Demo_Sample_094"	"1006.9"	""	"99.8"	""	"30"	"99.2"

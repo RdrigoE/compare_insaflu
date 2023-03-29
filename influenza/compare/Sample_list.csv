@@ -1,0 +1,15 @@
+Reference name,A_H3N2_A_Victoria_361_2011,,,,,,,,,,,,,,,,,,,
+id,fastq1,fastq2,data set,vaccine status,week,onset date,collection date,lab reception date,latitude,longitude,classification,putative mixed-infection,country,division,division_exposure,Health_region,host,location,note,region
+demo_influenza_01,influenza_01_R1_001.fastq.gz,influenza_01_R2_001.fastq.gz,demo_flu,NOTVACC,45,2016-11-12,2016-11-15,2016-11-16,37.739085,-25.668164,A-H3N2,No,Portugal,Acores,Acores,ACORES-RA,human,Nordeste,NOT REAL DATA,Europe
+demo_influenza_11,influenza_11_R1_001.fastq.gz,influenza_11_R2_001.fastq.gz,demo_avian_flu,,,,,,,,A-H5N1,No,,,,,,,NOT REAL DATA,
+demo_influenza_02,influenza_02_R1_001.fastq.gz,influenza_02_R2_001.fastq.gz,demo_flu,NOTVACC,45,2016-11-11,2016-11-14,2016-11-15,40.640446,-8.653726,A-H3N2,No,Portugal,Aveiro,Aveiro,NORTE,human,Oliveira de Azemeis,NOT REAL DATA,Europe
+demo_influenza_10,influenza_10_R1_001.fastq.gz,influenza_10_R2_001.fastq.gz,demo_flu,VACC,,,2022-05-06,,32.666973,-16.923985,H3,No,Portugal,Madeira,Madeira,MADEIRA-RA,human,Funchal,NOT REAL DATA,Europe
+demo_influenza_09,influenza_09_R1_001.fastq.gz,influenza_09_R2_001.fastq.gz,demo_flu,VACC,,,2022-05-05,,41.545214,-8.424468,A-H3N2,No,Portugal,Braga,Braga,NORTE,human,Vila Nova de Famalicao,NOT REAL DATA,Europe
+demo_influenza_07,influenza_07_R1_001.fastq.gz,influenza_07_R2_001.fastq.gz,demo_flu,VACC,,,2022-05-03,,38.726198,-9.138577,H3N2,No,Portugal,Lisboa,Lisboa,LX V TEJO,human,Lisboa,NOT REAL DATA,Europe
+demo_influenza_08,influenza_08_R1_001.fastq.gz,influenza_08_R2_001.fastq.gz,demo_flu,NOTVACC,,,2022-05-04,,38.726198,-9.138577,A-H3N2,No,Portugal,Lisboa,Lisboa,LX V TEJO,human,Sintra,NOT REAL DATA,Europe
+demo_influenza_04,influenza_04_R1_001.fastq.gz,influenza_04_R2_001.fastq.gz,demo_flu,NOTVACC,45,2016-11-13,2016-11-16,2016-11-17,37.024911,-7.931693,A-H3N2,No,Portugal,Faro,Faro,ALGARVE,human,Portimao,NOT REAL DATA,Europe
+demo_influenza_12,influenza_12_R1_001.fastq.gz,influenza_12_R2_001.fastq.gz,demo_avian_flu,,,,,,,,A-H5N1,No,,,,,,,NOT REAL DATA,
+demo_influenza_03,influenza_03_R1_001.fastq.gz,influenza_03_R2_001.fastq.gz,demo_flu,NOTVACC,45,2016-11-12,2016-11-15,2016-11-16,39.74929,-8.806306,A-H3N2,No,Portugal,Leiria,Leiria,CENTRO,human,Leiria,NOT REAL DATA,Europe
+demo_influenza_13,influenza_13_R1_001.fastq.gz,influenza_13_R2_001.fastq.gz,demo_flu,VACCINATED,51,2016-12-23,2016-12-25,2016-12-26,38.969211,-9.415351,A-H3N2,Yes,Portugal,Lisboa,Lisboa,LX V TEJO,human,Lisboa,NOT REAL DATA,Europe
+demo_influenza_05,influenza_05_R1_001.fastq.gz,influenza_05_R2_001.fastq.gz,demo_flu,NOTVACC,47,2016-11-18,2016-11-21,2016-11-22,41.158131,-8.629507,A-H3N2,No,Portugal,Porto,Porto,NORTE,human,Vila Nova de Gaia,NOT REAL DATA,Europe
+demo_influenza_06,influenza_06_R1_001.fastq.gz,influenza_06_R2_001.fastq.gz,demo_flu,VACC,,,2022-05-02,,39.233311,-8.694516,N2,No,Portugal,Santarem,Santarem,LX V TEJO,human,Ourem,NOT REAL DATA,Europe
