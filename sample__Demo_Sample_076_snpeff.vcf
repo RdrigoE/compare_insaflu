@@ -1,3 +1,34 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##medaka_version=1.2.1
+##medaka_version=1.4.4
+##contig=<ID=MN908947.3,length=29903>
+##INFO=<ID=ref_seq,Number=1,Type=String,Description="Medaka reference sequence">
+##INFO=<ID=pred_seq,Number=1,Type=String,Description="Medaka predicted sequence">
+##INFO=<ID=ref_qs,Number=.,Type=Float,Description="Medaka quality score for reference">
+##INFO=<ID=pred_qs,Number=.,Type=Float,Description="Medaka quality score for prediction">
+##INFO=<ID=ref_q,Number=1,Type=Float,Description="Medaka per position quality score for reference">
+##INFO=<ID=pred_q,Number=1,Type=Float,Description="Medaka per position quality score for prediction">
+##INFO=<ID=n_cols,Number=1,Type=Integer,Description="Number of medaka pileup columns in variant call">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Medaka genotype.">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Medaka genotype quality score">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Depth of reads at pos">
+##INFO=<ID=DPS,Number=2,Type=Integer,Description="Depth of reads at pos by strand (fwd, rev)">
+##INFO=<ID=DPSP,Number=1,Type=Integer,Description="Depth of reads spanning pos +-25">
+##INFO=<ID=SR,Number=.,Type=Integer,Description="Depth of spanning reads by strand which best align to each allele (ref fwd, ref rev, alt1 fwd, alt1 rev, etc.)">
+##INFO=<ID=AR,Number=2,Type=Integer,Description="Depth of ambiguous spanning reads by strand which align equally well to all alleles (fwd, rev)">
+##INFO=<ID=SC,Number=.,Type=Integer,Description="Total alignment score to each allele of spanning reads by strand (ref fwd, ref rev, alt1 fwd, alt1 rev, etc.) aligned with parasail match 5, mismatch -4, open 5, extend 3">
+##INFO=<ID=FREQ,Number=A,Type=Float,Description="Ratio of AO/(DPSP-AR)">
+##INFO=<ID=AO,Number=A,Type=Integer,Description="Alternate allele observation count, SR (alt1 fwd + alt1 rev, etc.)">
+##INFO=<ID=RO,Number=1,Type=Integer,Description="Reference allele observation count, SR (ref fwd + ref rev)">
+##INFO=<ID=AF,Number=R,Type=Integer,Description="Number of observation for each allele, SR (ref fwd + ref rev, alt1 fwd + alt1 rev, etc.)">
+##INFO=<ID=TYPE,Number=A,Type=String,Description="The type of allele, either snp, mnp, ins, del, or complex">
+##INFO=<ID=DP_COMPOSED,Number=1,Type=String,Description="Coverage at position (DPSP-AR)/(samtools -aa). First is collected by Medaka, Second is collected by samtools.">
+##SnpEffVersion="5.1d (build 2022-04-19 15:49), by Pablo Cingolani"
+##SnpEffCmd="SnpEff  -no-downstream -no-upstream -no-intergenic -no-utr -noStats SARS_CoV_2_COVID_19_Wuhan_Hu_1_MN908947 projects/sars_compare/sample_Demo_Sample_076/snps.vcf "
+##INFO=<ID=ANN,Number=.,Type=String,Description="Functional annotations: 'Allele | Annotation | Annotation_Impact | Gene_Name | Gene_ID | Feature_Type | Feature_ID | Transcript_BioType | Rank | HGVS.c | HGVS.p | cDNA.pos / cDNA.length | CDS.pos / CDS.length | AA.pos / AA.length | Distance | ERRORS / WARNINGS / INFO' ">
+##INFO=<ID=LOF,Number=.,Type=String,Description="Predicted loss of function effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
+##INFO=<ID=NMD,Number=.,Type=String,Description="Predicted nonsense mediated decay effects for this variant. Format: 'Gene_Name | Gene_ID | Number_of_transcripts_in_gene | Percent_of_transcripts_affected'">
 #CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
 MN908947.3	241	.	C	T	55.087	PASS	AR=11,3;DP=125;DPS=60,65;DPSP=124;SC=13154,15245,13586,15750;SR=0,2,48,60;n_cols=1;pred_q=55.087;pred_qs=55.087;pred_seq=T;ref_q=0;ref_qs=0;ref_seq=C;RO=2;AO=108;AF=2,108;TYPE=snp;DP_COMPOSED=110/111;FREQ=98.2	GT:GQ	1:55
 MN908947.3	343	.	G	T	58.823	PASS	AR=1,4;DP=162;DPS=75,87;DPSP=115;SC=11655,14782,12089,15311;SR=0,1,49,60;n_cols=1;pred_q=58.823;pred_qs=58.823;pred_seq=T;ref_q=0;ref_qs=0;ref_seq=G;RO=1;AO=109;AF=1,109;TYPE=snp;DP_COMPOSED=110/162;FREQ=99.1;ANN=T|synonymous_variant|LOW|orf1ab|Gene_265_21554|transcript|QHD43415.1|protein_coding|1/2|c.78G>T|p.Val26Val|78/21291|78/21291|26/7096||	GT:GQ	1:59
