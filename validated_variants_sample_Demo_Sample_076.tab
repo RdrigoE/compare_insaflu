@@ -1,0 +1,36 @@
+CHROM	POS	TYPE	REF	ALT	FREQ	COVERAGE	EVIDENCE	FTYPE	STRAND	NT_POS	AA_POS	EFFECT	NT CHANGE	AA CHANGE	AA CHANGE ALT	LOCUS_TAG	GENE	PRODUCT	VARIANTS IN INCOMPLETE LOCUS
+MN908947	241	snp	C	T	98.2	110/111	T:108 C:2												yes
+MN908947	343	snp	G	T	99.1	110/162	T:109 G:1	CDS	+	78/13203	26/4400	synonymous_variant	c.78G>T	p.Val26Val	p.V26V		orf1ab	orf1ab polyprotein	yes
+MN908947	913	snp	C	T	96.6	1405/1428	T:1357 C:48	CDS	+	648/13203	216/4400	synonymous_variant	c.648C>T	p.Ser216Ser	p.S216S		orf1ab	orf1ab polyprotein	yes
+MN908947	3037	snp	C	T	100	226/220	T:226 C:0	CDS	+	2772/13203	924/4400	synonymous_variant	c.2772C>T	p.Phe924Phe	p.F924F		orf1ab	orf1ab polyprotein	yes
+MN908947	3267	snp	C	T	99.1	703/751	T:697 C:6	CDS	+	3002/13203	1001/4400	missense_variant	c.3002C>T	p.Thr1001Ile	p.T1001I		orf1ab	orf1ab polyprotein	yes
+MN908947	5388	snp	C	A	99.8	1301/1307	A:1298 C:3	CDS	+	5123/13203	1708/4400	missense_variant	c.5123C>A	p.Ala1708Asp	p.A1708D		orf1ab	orf1ab polyprotein	yes
+MN908947	5986	snp	C	T	98.5	955/939	T:941 C:14	CDS	+	5721/13203	1907/4400	synonymous_variant	c.5721C>T	p.Phe1907Phe	p.F1907F		orf1ab	orf1ab polyprotein	yes
+MN908947	6954	snp	T	C	96.6	236/237	C:228 T:8	CDS	+	6689/13203	2230/4400	missense_variant	c.6689T>C	p.Ile2230Thr	p.I2230T		orf1ab	orf1ab polyprotein	yes
+MN908947	11287	del	GTCTGGTTTT	G	99.7	1257/1183	G:1253 GTCTGGTTTT:4	CDS	+	11023/13203	3675/4400	inframe_deletion	c.11023_11031delTCTGGTTTT	p.Ser3675_Phe3677del			orf1ab	orf1ab polyprotein	yes
+MN908947	14408	snp	C	T	98	153/163	T:150 C:3	CDS	+	941/8088	314/2695	missense_variant	c.941C>T	p.Pro314Leu	p.P314L		orf1ab	orf1ab polyprotein	yes
+MN908947	14676	snp	C	T	98.2	442/444	T:434 C:8	CDS	+	1209/8088	403/2695	synonymous_variant	c.1209C>T	p.Pro403Pro	p.P403P		orf1ab	orf1ab polyprotein	yes
+MN908947	15279	snp	C	T	99.4	660/671	T:656 C:4	CDS	+	1812/8088	604/2695	synonymous_variant	c.1812C>T	p.His604His	p.H604H		orf1ab	orf1ab polyprotein	yes
+MN908947	16176	snp	T	C	98.3	649/1335	C:638 T:11	CDS	+	2709/8088	903/2695	synonymous_variant	c.2709T>C	p.Thr903Thr	p.T903T		orf1ab	orf1ab polyprotein	yes
+MN908947	17615	snp	A	G	96.4	731/763	G:705 A:26	CDS	+	4148/8088	1383/2695	missense_variant	c.4148A>G	p.Lys1383Arg	p.K1383R		orf1ab	orf1ab polyprotein	yes
+MN908947	19079	snp	A	G	98.8	497/499	G:491 A:6	CDS	+	5612/8088	1871/2695	missense_variant	c.5612A>G	p.Glu1871Gly	p.E1871G		orf1ab	orf1ab polyprotein	yes
+MN908947	19854	snp	C	T	99.4	835/915	T:830 C:5	CDS	+	6387/8088	2129/2695	synonymous_variant	c.6387C>T	p.Asp2129Asp	p.D2129D		orf1ab	orf1ab polyprotein	yes
+MN908947	21764	del	ATACATG	A	97.4	1353/1321	A:1318 ATACATG:35	CDS	+	204/3822	68/1273	disruptive_inframe_deletion	c.204_209delACATGT	p.His69_Val70del			S	surface glycoprotein	yes
+MN908947	21990	del	TTTA	T	96.4	1436/1905	T:1385 TTTA:51	CDS	+	432/3822	144/1273	disruptive_inframe_deletion	c.432_434delTTA	p.Tyr145del	p.Y145del		S	surface glycoprotein	yes
+MN908947	23063	snp	A	T	100	123/118	T:123 A:0	CDS	+	1501/3822	501/1273	missense_variant	c.1501A>T	p.Asn501Tyr	p.N501Y		S	surface glycoprotein	yes
+MN908947	23271	snp	C	A	99.9	1632/1642	A:1631 C:1	CDS	+	1709/3822	570/1273	missense_variant	c.1709C>A	p.Ala570Asp	p.A570D		S	surface glycoprotein	yes
+MN908947	23323	snp	T	C	99.6	1575/1580	C:1569 T:6	CDS	+	1761/3822	587/1273	synonymous_variant	c.1761T>C	p.Ile587Ile	p.I587I		S	surface glycoprotein	yes
+MN908947	23403	snp	A	G	99	1492/1496	G:1477 A:15	CDS	+	1841/3822	614/1273	missense_variant	c.1841A>G	p.Asp614Gly	p.D614G		S	surface glycoprotein	yes
+MN908947	23604	snp	C	A	99.9	775/790	A:774 C:1	CDS	+	2042/3822	681/1273	missense_variant	c.2042C>A	p.Pro681His	p.P681H		S	surface glycoprotein	yes
+MN908947	23709	snp	C	T	97.8	783/771	T:766 C:17	CDS	+	2147/3822	716/1273	missense_variant	c.2147C>T	p.Thr716Ile	p.T716I		S	surface glycoprotein	yes
+MN908947	24506	snp	T	G	99.1	1244/1283	G:1233 T:11	CDS	+	2944/3822	982/1273	missense_variant	c.2944T>G	p.Ser982Ala	p.S982A		S	surface glycoprotein	yes
+MN908947	24914	snp	G	C	99	1099/1071	C:1088 G:11	CDS	+	3352/3822	1118/1273	missense_variant	c.3352G>C	p.Asp1118His	p.D1118H		S	surface glycoprotein	yes
+MN908947	27382	mnp	GAT	CTC	99.3	1820/1627	CTC:1808 GAT:12	CDS	+	181/186	61/61	missense_variant	c.181_183delGATinsCTC	p.Asp61Leu	p.D61L		ORF6	ORF6 protein	yes
+MN908947	27972	snp	C	T	98	1424/1298	T:1396 C:28	CDS	+	79/366	27/121	stop_gained	c.79C>T	p.Gln27*	p.Q27*		ORF8	ORF8 protein	yes
+MN908947	28048	snp	G	T	98.3	1447/1421	T:1422 G:25	CDS	+	155/366	52/121	missense_variant	c.155G>T	p.Arg52Ile	p.R52I		ORF8	ORF8 protein	yes
+MN908947	28111	snp	A	G	98.4	2097/3053	G:2063 A:34	CDS	+	218/366	73/121	missense_variant	c.218A>G	p.Tyr73Cys	p.Y73C		ORF8	ORF8 protein	yes
+MN908947	28270	del	TA	T	94.9	1841/2308	T:1748 TA:93												yes
+MN908947	28280	mnp	GAT	CTA	99.7	2276/2103	CTA:2269 GAT:7	CDS	+	7/1260	3/419	missense_variant	c.7_9delGATinsCTA	p.Asp3Leu	p.D3L		N	nucleocapsid phosphoprotein	yes
+MN908947	28881	mnp	GGG	AAC	99.4	659/630	AAC:655 GGG:4	CDS	+	608/1260	203/419	missense_variant	c.608_610delGGGinsAAC	p.ArgGly203LysArg	p.RG203KR		N	nucleocapsid phosphoprotein	yes
+MN908947	28977	snp	C	T	98.4	622/611	T:612 C:10	CDS	+	704/1260	235/419	missense_variant	c.704C>T	p.Ser235Phe	p.S235F		N	nucleocapsid phosphoprotein	yes
+MN908947	29729	del	TCACCGAGG	T	99.8	1460/1383	T:1457 TCACCGAGG:3												yes
